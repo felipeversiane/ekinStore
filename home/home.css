@@ -104,9 +104,18 @@ main{
     margin-bottom: 10rem;
 }
 .square{
-    width: 80%;
-    height: 50rem;
-    background-color: aquamarine;
+    width: 90%;
+    height: 40rem;
+    background-color: #004400;
+}
+.motival-message{
+    font-size:8rem;
+    margin: 6rem 0 0 7rem;
+    font-family: "Arial",sans-serif;
+    color:#fff;
+    width: fit-content;
+    height: fit-content;
+    
 }
 
 
