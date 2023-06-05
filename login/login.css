@@ -1,0 +1,142 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    font-size:16px;
+}
+.conteiner{
+
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    align-content: center;
+
+}
+.imagens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%; 
+    overflow: hidden;  
+    height: 100vh;
+
+}
+.skatista{
+    width: 110%;
+    height: auto;
+}
+
+/*IMAGEM*/
+.formSection{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+
+    width: 50%;
+
+}
+
+.form{    
+    /*Formulario em coluna*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /*Espaçamento entre os itens*/
+    row-gap: 15px;
+}
+
+.loginText{
+    font-family: 'Inter', sans-serif;
+
+    transform: translateY(-30px);
+    font-size: 230%;
+    font-weight: 600;
+}
+
+.inputs{
+    
+    border-radius: 13px;
+    border:none;
+
+    padding: 12px;
+    width: 308px;
+    height: 20px;
+
+    background-color: #D9D9D9;
+
+}
+
+.inputs::placeholder{
+
+    color: #414141;
+}
+
+.forgot{
+
+    transform: translate(-78%,-13px);
+}
+
+.or{
+    font-size: larger;
+    font-weight: 700;
+    transform: translateY(-10px);
+}
+
+.loginButton{
+
+    border-radius: 13px;
+    border: none;
+    
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+
+    align-items: center;
+
+    height: 47px;
+    width: 333px;
+
+    background-color: #28C76F;
+    cursor:pointer;
+    transform: translateY(-20px);
+    
+}
+.loginButton a {
+
+    font-size:27px;
+}
+.googleButton{
+    border-radius: 13px;
+    border-color: darkgray;
+    
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+
+    align-items: center;
+
+    height: 47px;
+    width: 333px;
+
+    background-color: white;
+    cursor:pointer;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center ;
+    
+}
+.googleButton a{
+    font-size: medium;
+}
+.googleLogo{
+    height: 65%;
+    width: auto;
+    transform: translateX(13px);
+
+}
+.singUp{
+    display: flex;
+    flex-direction: row;
+}
