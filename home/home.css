@@ -125,16 +125,24 @@ main {
   height: 40rem;
   background-color: #004400;
   margin-bottom: 8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
 }
 
 .motival-message {
   font-size: 8rem;
-  margin: 6rem 0 0 7rem;
+  margin-left: 7rem;
   font-family: "Arial", sans-serif;
   color: #fff;
-  width: fit-content;
-  height: fit-content;
   user-select: none;
+}
+
+.tenis {
+  width: 1000px;
+  height: auto;
+  margin-right: 30px;
 }
 
 .container.message {
