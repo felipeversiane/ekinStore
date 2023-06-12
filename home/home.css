@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
   font-size: 16px;
+  overflow: hidden;
 }
 
 @font-face {
