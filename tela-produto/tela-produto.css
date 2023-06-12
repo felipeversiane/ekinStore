@@ -1,0 +1,100 @@
+
+header {
+    width: 100vw;
+    height: fit-content;
+    margin: 0 auto;
+    z-index: 1;
+  }
+
+  .nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+  }
+  
+  .logo {
+    margin-right: auto;
+  }
+  
+  .logo img {
+    width: 80px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .logo img:hover {
+    transform: scale(1.2);
+  }
+
+  .mid-bar {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .mid-bar a {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .mid-bar a:hover {
+    color: #ff6b6b;
+  }
+
+  .right-bar {
+    width: fit-content;
+    height: fit-content;
+    margin-right: 3rem;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-bar a {
+    margin-left: 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 40px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 0.9rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .right-bar i {
+    font-size: 40px;
+  }
+  
+  .right-bar a:hover {
+    color: #ff6b6b;
+  }
+
+.foto-tenis img{
+    position: absolute;
+    width: 572px;
+    top: 192px;
+    left: 82px;
+}
+
+.nome-tenis{
+    position: absolute;
+    top: 170px;
+    left: 780px;
+}
+
+.tenis01 img{
+    position: absolute;
+    width: 204px;
+    top: 719px;
+    left: 40px;
+}
