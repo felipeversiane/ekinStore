@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cart.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="icon" href="./images/logo.png" type="image/png">
+    <title>EKin - Cart</title>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <nav class="nav-bar">
+            <div class="logo"><a href="/"><img src="../images/logo.png" alt="Logo da loja Ekin"></a></div>
+            <div class="mid-bar">
+                <a href="#">New Feature</a>
+                <a href="#">Men</a>
+                <a href="#">Woman</a>
+                <a href="#">Customize</a>
+            </div>
+            <div class="right-bar">
+                <div class="cart-shopping">
+                    <a href="cart.html">
+                        <i class="ph ph-shopping-cart"></i>
+                    </a>
+                </div>
+
+                <div class="perfil">
+                    <a href="./login/login.html">
+                        <i class="ph ph-user"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+            <div class="cart">
+                <div class="menu">
+                    <h3><i class="ph-bold ph-caret-left"></i> Shopping Continue</h3>
+                </div>
+                <div class="menu-text">
+                    <h3>Shopping cart</h3>
+                    <p>You have 3 items in your cart</p>
+                </div>
+                <div class="cart-items">
+                    <div class="item">
+                       <img class="item-image" src="../images/tenis.png" alt="">
+                        <div class="item-content">
+                            <span>
+                                <h3>Alo</h3>
+                                <p>Ambev</p>
+                            </span>
+                            <span class="item-qtd">
+                                <p>
+                                    1
+                                </p>
+                                <i class="ph-bold ph-caret-up-down"></i>
+                            </span>
+                            <p>
+                                $81
+                            </p>
+                            <i class="ph-bold ph-trash"></i>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-image"><img src="../images/tenis3.png" alt=""></div>
+                        <div class="item-content">
+                            <span>
+                                <h3>Alo</h3>
+                                <p>Ambev</p>
+                            </span>
+                            <span class="item-qtd">
+                                <p>
+                                    1
+                                </p>
+                                <i class="ph-bold ph-caret-up-down"></i>
+                            </span>
+                            <p>
+                                $81
+                            </p>
+                            <i class="ph-bold ph-trash"></i>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-image"><img src="../images/tenis2.png" alt=""></div>
+                        <div class="item-content">
+                            <span>
+                                <h3>Alo</h3>
+                                <p>Ambev</p>
+                            </span>
+                            <span class="item-qtd">
+                                <p>
+                                    1
+                                </p>
+                                <i class="ph-bold ph-caret-up-down"></i>
+                            </span>
+                            <p>
+                                $81
+                            </p>
+                            <i class="ph-bold ph-trash"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header"><h2>Card Details</h2> <img src="../images/guy.jpg" alt="" class="card-image"></div>
+                <form action="">
+                    <div class="cards-container">
+                        <ul>
+                            <li><input type="radio" name="test" id="cb1" />
+                              <label class="label" for="cb1"><img src="../images/mastercard.png" /></label>
+                            </li>
+                            <li><input type="radio" name="test" id="cb2" />
+                              <label class="label" for="cb2"><img src="../images/visa.png" /></label>
+                            </li>
+                            <li><input type="radio" name="test" id="cb3" />
+                              <label class="label" for="cb3"><img src="../images/rupay.png" /></label>
+                            </li>
+                            <li><input type="radio" name="test" id="cb4" />
+                              <label class="label" for="cb4">See all</label>
+                            </li>
+                          </ul>
+                      </div>
+                        <div class="card-info">
+                            <label>
+                                Name on card
+                                <input class="input" type="text" placeholder="Name">
+                            </label>
+                            <label>
+                                Card Number
+                                <input class="input" type="number" placeholder="1111 2222 3333 4444">
+                            </label>
+                            <div class="card-info-minor-input">
+                                <label>
+                                    Expiration date
+                                    <input class="input-minor" type="month" placeholder="mm-yy" onChange={console.log(value)} pattern="[0-9]{4}-[0-9]{2}">
+                                </label>
+                                <label>
+                                    CVV
+                                    <input class="input-minor" type="number" placeholder="123">
+                                </label>
+                            </div>
+                        </div>
+                    <table>
+                        <tr>
+                            <td>Subtotal</td>
+                            <td>$1,668</td>
+                        </tr> 
+                        <tr>
+                            <td>Shipping</td>
+                            <td>$4</td>
+                        </tr>
+                        <tr>
+                            <td>Total(Tax. Incl.)</td>
+                            <td>$1,672</td>
+                        </tr>
+
+                    </table>
+                    <button>$1,672 <span>Checkout <i class="ph-bold ph-arrow-right"></i></span></button>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
