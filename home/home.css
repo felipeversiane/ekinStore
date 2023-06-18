@@ -20,6 +20,7 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 a {
@@ -140,9 +141,10 @@ main {
 }
 
 .tenis {
-  width: 1000px;
+  width: 70%;
   height: auto;
-  margin-right: 30px;
+  position: absolute;
+  margin-left: 300px;
 }
 
 .container.message {
