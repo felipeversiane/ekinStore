@@ -5,6 +5,9 @@ header {
     margin: 0 auto;
     z-index: 1;
   }
+  body {
+    font-family: sans-serif;
+  }
 
   .nav-bar {
     position: fixed;
