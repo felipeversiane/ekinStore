@@ -326,6 +326,7 @@ input[type="radio"][id^="cb"] {
 .input {
   width: 100%;
   height: 50px;
+  color: #C4C4C4;
 }
 
 input {
@@ -357,6 +358,7 @@ input {
   width: 100%;
   max-width: 100%;
   height: 50px;
+  color: #C4C4C4;
 }
 
 table {
