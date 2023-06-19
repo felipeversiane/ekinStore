@@ -141,10 +141,10 @@ main {
 }
 
 .tenis {
-  width: 70%;
+  width:1100px;
   height: auto;
   position: absolute;
-  margin-left: 300px;
+  margin-left: 550px;
 }
 
 .container.message {
